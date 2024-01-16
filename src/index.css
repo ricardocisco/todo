@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161A30;
+  font-family: "Inter", sans-serif;
+}
+
+.todoWrapper 
+{
+  background-color: #31304D;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.todoWrapper h1
+{
+  margin: 10px;
+  color: #F0ECE5;
+}
+
+.todoForm 
+{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todoForm input {
+  outline: none;
+  background: none;
+  border: 1px solid #F0ECE5;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+.todoForm input::placeholder {
+  color: #ffffff4d;
+}
+
+.todoForm button
+{
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161A30;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.todo p {
+  color: #F0ECE5;
+}
+.todo div {
+  display: flex;
+  align-items: center;
+  color: #F0ECE5;
+}
+
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
